@@ -39,7 +39,7 @@ Enemy.prototype.collision = function (player) {
         player.x = 200;
         player.y = 300;
     }
-}
+};
 
 // Now write your own player class
 // This class requires an update(), render() and
@@ -79,7 +79,7 @@ Player.prototype.handleInput = function (keyCode) {
 
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
-let allEnemies = new Array();
+let allEnemies = [];
 
 // enemy's position (column position) in the matrix
 [50, 130, 220].forEach(function(col) {
